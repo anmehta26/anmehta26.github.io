@@ -1,0 +1,802 @@
+@-webkit-keyframes wheelspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes wheelspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes wheelspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wheelspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes floor {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes floor {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-ms-keyframes floor {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes floor {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-webkit-keyframes pedalstem-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes pedalstem-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes pedalstem-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pedalstem-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes pedalstem-back {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@-moz-keyframes pedalstem-back {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@-ms-keyframes pedalstem-back {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes pedalstem-back {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes pedalbase-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-moz-keyframes pedalbase-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-ms-keyframes pedalbase-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes pedalbase-front {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes pedalbase-back {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+@-moz-keyframes pedalbase-back {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+@-ms-keyframes pedalbase-back {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+@keyframes pedalbase-back {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+@-webkit-keyframes riding {
+  from {
+    transform: translateX(-250%);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
+@-moz-keyframes riding {
+  from {
+    transform: translateX(-250%);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
+@-ms-keyframes riding {
+  from {
+    transform: translateX(-250%);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
+@keyframes riding {
+  from {
+    transform: translateX(-250%);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
+html,
+body {
+  max-width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.bike {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 368px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-animation-name: riding;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: riding;
+  -moz-animation-duration: 4s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: riding;
+  -o-animation-duration: 4s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: riding;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bike .part {
+  position: absolute;
+}
+
+.frame .bar {
+  width: 12px;
+  position: absolute;
+  background: #E8BF56;
+}
+.frame .bar.left-top {
+  width: 10px;
+  height: 186px;
+  margin-left: 128px;
+  margin-top: 110px;
+  -moz-transform: rotate(37deg);
+  -o-transform: rotate(37deg);
+  -ms-transform: rotate(37deg);
+  -webkit-transform: rotate(37deg);
+  transform: rotate(37deg);
+}
+.frame .bar.left-bottom {
+  width: 8px;
+  margin-left: 149px;
+  margin-top: 203px;
+  height: 170px;
+  -moz-transform: rotate(-82deg);
+  -o-transform: rotate(-82deg);
+  -ms-transform: rotate(-82deg);
+  -webkit-transform: rotate(-82deg);
+  transform: rotate(-82deg);
+}
+.frame .bar.left {
+  height: 230px;
+  margin-left: 200px;
+  margin-top: 80px;
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.frame .bar.top {
+  height: 224px;
+  margin-left: 282px;
+  margin-top: -10px;
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.frame .bar.bottom {
+  margin-left: 317px;
+  margin-top: 87px;
+  height: 250px;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.frame .bar.right {
+  height: 230px;
+  margin-left: 421px;
+  margin-top: 60px;
+  -moz-transform: rotate(-19deg);
+  -o-transform: rotate(-19deg);
+  -ms-transform: rotate(-19deg);
+  -webkit-transform: rotate(-19deg);
+  transform: rotate(-19deg);
+}
+
+.saddle {
+  margin-left: 184px;
+}
+.saddle .sit-here {
+  height: 0;
+  width: 10px;
+  position: absolute;
+  border-bottom: 110px solid #000;
+  border-left: 0px solid transparent;
+  border-right: 22px solid transparent;
+  border-radius: 10px 0 10px 0;
+  margin-top: -20px;
+  margin-left: -35px;
+  -moz-transform: rotate(98deg);
+  -o-transform: rotate(98deg);
+  -ms-transform: rotate(98deg);
+  -webkit-transform: rotate(98deg);
+  transform: rotate(98deg);
+}
+.saddle .saddlepen {
+  width: 10px;
+  height: 200px;
+  margin-top: 30px;
+  position: absolute;
+  background: #dadada;
+  -moz-transform: rotate(-16deg);
+  -o-transform: rotate(-16deg);
+  -ms-transform: rotate(-16deg);
+  -webkit-transform: rotate(-16deg);
+  transform: rotate(-16deg);
+}
+
+.wheel {
+  width: 200px;
+  height: 200px;
+  margin-top: 160px;
+  border-radius: 100%;
+  border: 15px solid #dadada;
+  box-shadow: 0 0 0 10px #333;
+  -webkit-animation-name: wheelspin;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: wheelspin;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: wheelspin;
+  -o-animation-duration: 2s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: wheelspin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wheel.left {
+  margin-left: -35px;
+}
+.wheel.right {
+  margin-left: 348px;
+}
+.wheel .spoke {
+  width: 2px;
+  height: 200px;
+  margin-left: 98px;
+  position: absolute;
+  background: #dadada;
+}
+.wheel .spoke:nth-child(2) {
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.wheel .spoke:nth-child(3) {
+  -moz-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.wheel .spoke:nth-child(4) {
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.wheel .spoke:nth-child(5) {
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+.wheel .spoke:nth-child(6) {
+  -moz-transform: rotate(150deg);
+  -o-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  -webkit-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+.wheel .spoke:nth-child(7) {
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.wheel .spoke:nth-child(8) {
+  -moz-transform: rotate(210deg);
+  -o-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  -webkit-transform: rotate(210deg);
+  transform: rotate(210deg);
+}
+
+.axis {
+  width: 25px;
+  height: 25px;
+  margin-top: 265px;
+  position: absolute;
+  background: #333;
+  border-radius: 100%;
+}
+.axis.left {
+  margin-left: 67px;
+}
+.axis.right {
+  margin-left: 451px;
+}
+
+.handlebar .stem {
+  width: 10px;
+  height: 200px;
+  margin-top: 45px;
+  margin-left: 412px;
+  position: absolute;
+  background: #dadada;
+  -moz-transform: rotate(-19deg);
+  -o-transform: rotate(-19deg);
+  -ms-transform: rotate(-19deg);
+  -webkit-transform: rotate(-19deg);
+  transform: rotate(-19deg);
+}
+.handlebar .connector {
+  width: 20px;
+  height: 20px;
+  margin-left: 374px;
+  margin-top: 40px;
+  -moz-transform: rotate(-19deg);
+  -o-transform: rotate(-19deg);
+  -ms-transform: rotate(-19deg);
+  -webkit-transform: rotate(-19deg);
+  transform: rotate(-19deg);
+  background: #dadada;
+}
+.handlebar .prehandle {
+  width: 15px;
+  height: 40px;
+  margin-left: 394px;
+  margin-top: -45px;
+  -moz-transform: rotate(42deg);
+  -o-transform: rotate(42deg);
+  -ms-transform: rotate(42deg);
+  -webkit-transform: rotate(42deg);
+  transform: rotate(42deg);
+  background: #dadada;
+}
+.handlebar .handle {
+  width: 25px;
+  height: 25px;
+  margin-left: 400px;
+  margin-top: -45px;
+  position: absolute;
+  background: #000;
+  border-radius: 100%;
+}
+
+.pedals {
+  margin-left: 227px;
+  margin-top: 295px;
+}
+.pedals * {
+  position: absolute;
+}
+.pedals .inside {
+  width: 9px;
+  height: 9px;
+  background: #333;
+  border-radius: 100%;
+  margin-left: 3.5px;
+  margin-top: 2.4px;
+}
+.pedals .outside {
+  width: 80px;
+  height: 80px;
+  margin-top: -39px;
+  margin-left: -37px;
+  border: 5px solid #000;
+  border-radius: 100%;
+}
+.pedals .pedalstem {
+  width: 12px;
+  height: 80px;
+  margin-left: 2px;
+  background: #dadada;
+  border-radius: 10px 10px 0 0;
+  transform-origin: 6px 7px;
+}
+.pedals .pedalstem.front {
+  -webkit-animation-name: pedalstem-front;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalstem-front;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalstem-front;
+  -o-animation-duration: 1s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalstem-front;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.pedals .pedalstem.back {
+  -webkit-animation-name: pedalstem-back;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalstem-back;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalstem-back;
+  -o-animation-duration: 1s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalstem-back;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.pedals .pedalbase {
+  width: 40px;
+  height: 15px;
+  margin-top: 70px;
+  margin-left: -12px;
+  background: #000;
+}
+.pedals .pedalbase.front {
+  -webkit-animation-name: pedalbase-front;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalbase-front;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalbase-front;
+  -o-animation-duration: 1s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalbase-front;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.pedals .pedalbase.back {
+  -webkit-animation-name: pedalbase-back;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalbase-back;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalbase-back;
+  -o-animation-duration: 1s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalbase-back;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.pause {
+  width: 20px;
+  height: 55px;
+  margin: 10% auto;
+  background: #fff;
+  cursor: pointer;
+  border-right: 12px solid #E8BF56;
+  border-left: 12px solid #E8BF56;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.pause.active {
+  width: 0;
+  height: 0;
+  border-top: 25.5px solid transparent;
+  border-left: 44px solid #e8bf56;
+  border-bottom: 25.5px solid transparent;
+  border-right: none;
+}
+
+.paused,
+.paused * {
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -o-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+
+.bike-two {
+  -webkit-animation-name: riding;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: riding;
+  -moz-animation-duration: 3s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: riding;
+  -o-animation-duration: 3s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: riding;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bike-two .pedalstem.front {
+  -webkit-animation-name: pedalstem-front;
+  -webkit-animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalstem-front;
+  -moz-animation-duration: 0.75s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalstem-front;
+  -o-animation-duration: 0.75s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalstem-front;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bike-two .pedalstem.back {
+  -webkit-animation-name: pedalstem-back;
+  -webkit-animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalstem-back;
+  -moz-animation-duration: 0.75s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalstem-back;
+  -o-animation-duration: 0.75s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalstem-back;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.bike-two .pedalbase.front {
+  -webkit-animation-name: pedalbase-front;
+  -webkit-animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalbase-front;
+  -moz-animation-duration: 0.75s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalbase-front;
+  -o-animation-duration: 0.75s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalbase-front;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bike-two .pedalbase.back {
+  -webkit-animation-name: pedalbase-back;
+  -webkit-animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: pedalbase-back;
+  -moz-animation-duration: 0.75s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: pedalbase-back;
+  -o-animation-duration: 0.75s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: pedalbase-back;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bike-two .wheel {
+  -webkit-animation-name: wheelspin;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: wheelspin;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: wheelspin;
+  -o-animation-duration: 1.5s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: wheelspin;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bike-two .sit-here {
+  border-bottom: 110px solid #522917;
+}
+.bike-two .handle {
+  background: #522917;
+}
+.bike-two .frame .bar {
+  background: #799753;
+}
+
+.inside {
+  z-index: 6;
+}
+
+.axis {
+  z-index: 5;
+}
+
+.pedalstem.front {
+  z-index: 5;
+}
+
+.frame {
+  z-index: 4;
+}
+
+.outside {
+  z-index: 4;
+}
+
+.handlebar {
+  z-index: 3;
+}
+
+.sit-here {
+  z-index: 2;
+}
+
+.wheel {
+  z-index: 1;
+}
+
+.pedalstem.back {
+  z-index: -1;
+}
